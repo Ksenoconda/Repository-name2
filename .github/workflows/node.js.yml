@@ -16,7 +16,6 @@ steps:
 
 - name: npm install, test and build
 run:
-npm install
 npm run build
 
 - name: Run a one-line script
