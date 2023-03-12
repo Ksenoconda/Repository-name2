@@ -3,9 +3,9 @@ name: CI
 on:
   #События, которые запускают
   push:
-   braches: [ "main" ]
+    branches: [ "main" ]
   pull_request:
-   branches: [ "main" ]
+    branches: [ "main" ]
 
 # jobs запускаются параллельно, если не указана последовательность
 jobs:
