@@ -14,7 +14,7 @@ steps:
 
 - uses: actions/checkout@v3
 
-- name: npm install, test and build
+- name: npm test and build
 run:
 npm run build
 
